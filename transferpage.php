@@ -28,7 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 ?>
         <script>
             swal({
-                title: "Transfering to same account!",
+                title: "Transferring to same account!",
                 icon: "warning",
                 button: "Ok",
             });
@@ -52,7 +52,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <script>
                     swal({
                         customClass: 'swalsuccess',
-                        title: "Transfered Successfully!",
+                        title: "Transferred Successfully!",
                         icon: "success",
                         button: "Ok",
                     }).then(function() {
