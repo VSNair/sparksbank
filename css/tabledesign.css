@@ -1,0 +1,65 @@
+.styled-table {
+	border-collapse: separate;
+	border: inset #5ea7e2;
+	margin: 25px 0;
+	font-size: 1em;
+	min-width: 400px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table-form {
+	width: 30%;
+	background-color: rgba(255, 255, 255, .5);
+	text-align: justify;
+	margin: 25px 0;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	font-size: 0.9em;
+}
+
+.styled-table thead tr {
+	background-color: rgb(17, 124, 143);
+	color: rgb(255, 255, 255);
+	text-align: center;
+	border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.styled-table-form thead tr,
+.styled-table-form tfoot tr {
+	background-color: rgb(17, 124, 143);
+	color: rgb(255, 255, 255);
+	text-align: center;
+	border-bottom: 2px solid rgb(0, 0, 0);
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+.styled-table th,
+.styled-table td {
+	padding: 12px 15px;
+}
+
+.styled-table-form th,
+.styled-table-form td {
+	text-align: center;
+	padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+	border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+	background-color: rgb(65,200,174);
+}
+
+.styled-table tbody tr:nth-of-type(odd) {
+	background-color: rgb(55, 175, 200);
+}
+
+.styled-table tbody tr:last-of-type {
+	border-bottom: 2px solid rgb(0,0,0);
+}
+
+.error {
+	color: rgb(255, 0, 0);
+}

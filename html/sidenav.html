@@ -1,0 +1,18 @@
+<div class="sidenav" id="mySidenav">
+    <a href="index.php"><li class="menuitem"><i class="fa fa-home"></i>Home Page</li></a>
+    <a href="customerpage.php"><li class="menuitem"><i class="fa fa-user-circle"></i>View Customers</li></a>
+    <a href="transferpage.php"><li class="menuitem"><i class="fa fa-money"></i></i>Funds Transfer</li></a>
+    <a href="historypage.php"><li class="menuitem"><i class="fa fa-history"></i>Transaction History</li></a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>
+</div>
+<script>
+    function myFunction() {
+        var x = document.getElementById("mySidenav");
+        if (x.className === "sidenav") {
+            x.className += " responsive";
+        } else {
+            x.className = "sidenav";
+        }
+    }
+</script>
+</html>

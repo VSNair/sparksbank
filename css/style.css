@@ -1,0 +1,141 @@
+body {
+	padding-left: 45px;
+	margin: 0;
+	background-image: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url("bg_img.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+	padding: 20px;
+	background-color: rgba(83, 168, 238, 0.8);
+}
+
+.header img {
+	width: 100px;
+	height: 100px;
+}
+
+.about {
+	font-size: 20px;
+	background-color: rgba(100, 100, 100, 0.5);
+	width: 55%;
+	margin: 30px 30px;
+	padding: 30px 30px;
+}
+
+h2 {
+	width: 55%;
+	padding: 20px;
+	background-color: rgba(100, 100, 100, 0.5);
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.sidenav {
+	position:fixed;
+	top: 0;
+	left: 0;
+	width: 45px;
+	height: 100vh;
+	background-color: rgb(51, 51, 51);
+	overflow: hidden;
+	white-space: nowrap;
+	text-align:left;
+	font-size: 18px;
+	box-shadow: 0px 0px 20px rgb(51, 51, 51);
+	transition: 0.3s ease;
+}
+
+.sidenav:hover {
+	width: 250px;
+}
+
+.sidenav .menuitem {
+	padding: 10px;
+	list-style: none;
+	color: rgb(242, 242, 242);
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.sidenav .menuitem:hover{
+	background-color: rgb(83, 168, 238);
+	cursor: pointer;
+	color: rgb(0, 0, 0);
+}
+
+.sidenav a{
+	color: rgb(242, 242, 242);
+	text-decoration: none;
+}
+
+.sidenav .menuitem .fa{
+	font-size: 22px;
+	width: 40px;
+}
+
+.swal-modal, .swal-icon--success__hide-corners, .swal-icon, .swal-icon--success:after, .swal-icon--success:before{
+	background-color: rgb(140, 175, 220);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.column {
+	float: left;
+	width: 20%;
+	padding: 0 10px;
+}
+
+.row {
+	margin: 0 -5px;
+	margin-bottom: 10px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+@media screen and (max-width: 500px) {
+	.column {
+		width: 100%;
+		display: block;
+		margin-bottom: 20px;
+	}
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	padding: 16px;
+	text-align: center;
+	background-color: rgba(83, 168, 238, 0.8);
+}
+
+.extra-card {
+	padding: 16px;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0);
+}
+
+.footer {
+	bottom: 0;
+	height: 6.5em;
+	width: 100%;
+	position: relative;
+	background-color: rgba(83, 168, 238, 0.8);
+	font-size: 18px;
+}
+
+.footer a {
+	text-decoration: none;
+}
+
+.footer p {
+	font-size: 16px;
+}
